@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="https://github.com/quic-yocto" name="github" review="github.com"/>
   <remote fetch="https://github.com/ros" name="ros" review="github.com"/>
+  <remote fetch="https://github.com/aiotads" name="aiotads" review="github.com"/>
   <default remote="github" revision="refs/heads/kirkstone" sync-j="8"/>
 
   <project name="meta-ros" path="layers/meta-ros" remote="ros" revision="b4db6314bae1c78498158e267200a9c15a739cad" upstream="refs/heads/kirkstone"/>
@@ -14,4 +15,6 @@
   </project>
   <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="2cf6d25c82e004651c36501260af38ee554125c0" upstream="refs/heads/kirkstone"/>
   <include name="qcom-6.6.38-QLI.1.2-Ver.1.1.xml" />
+
+  <project name="meta-exms-q901" path="layers/meta-exms-q901" remote="aiotads" revision="f0377354a79aaf58c8a3c21409d8ae5b6d1282a4" upstream="refs/heads/main"/>
 </manifest>
