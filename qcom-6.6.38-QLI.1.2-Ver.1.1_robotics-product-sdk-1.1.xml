@@ -16,5 +16,5 @@
   <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="2cf6d25c82e004651c36501260af38ee554125c0" upstream="refs/heads/kirkstone"/>
   <include name="qcom-6.6.38-QLI.1.2-Ver.1.1.xml" />
 
-  <project name="meta-exms-q901" path="layers/meta-exms-q901" remote="aiotads" revision="f0377354a79aaf58c8a3c21409d8ae5b6d1282a4" upstream="refs/heads/main"/>
+  <project name="meta-exms-q901__confidential" path="layers/meta-exms-q901" remote="aiotads" revision="f0377354a79aaf58c8a3c21409d8ae5b6d1282a4" upstream="refs/heads/main"/>
 </manifest>
